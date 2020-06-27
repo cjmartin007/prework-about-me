@@ -1,5 +1,6 @@
 body {
-    color: #222222;
+    color: #333333;
+    background-color: #111111;
     font-size: 1em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -8,11 +9,11 @@ body {
 .masthead-heading,
 .masthead-intro {
   text-align: center;
+
 }
 
 .masthead {
   padding: 6em 0;
-  background-image: url('../img/code.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -20,23 +21,39 @@ body {
 .masthead-intro {
     margin-bottom: 0.1em;
     font-size: 2em;
-    color: #ffffff;
+    color: #111111;
+    font-weight: bold;
+    font-family: fantasy;
+
 }
 
 .masthead-heading {
-    margin-top: -0.2em;
+    margin-top: 2px;
     font-weight: bold;
     font-size: 6em;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: azure;
+    background-image: url('../img/code.jpg') ;
+    border: #111111;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 380x;
+  width: 300px;
 }
 
 .details {
     max-width: 38em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 2px;
 }
 
 .details > p {
